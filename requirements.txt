@@ -1,0 +1,13 @@
+# Versions verified on the development Windows/Python 3.13 environment.
+# Install a matching CPU or CUDA torch wheel separately from the official index.
+PySide6==6.11.2
+torch==2.14.1
+sentence-transformers==6.1.0
+transformers==5.18.0
+langchain-core==1.2.18
+langchain-text-splitters==1.1.1
+langchain-deepseek==1.0.1
+python-dotenv==1.2.1
+numpy==2.5.3
+-r requirements-office.txt
+-r requirements-desktop.txt

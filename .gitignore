@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+models/
+runtime/
+data/*
+!data/import_qa_test.txt
+eval/stress_results/
+build/
+release/
+.vscode/
+PROJECT_MENTOR_GUIDE.md
+PROJECT_STATUS.md

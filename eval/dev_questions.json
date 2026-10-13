@@ -1,0 +1,53 @@
+[
+  {
+    "id": "dev_01",
+    "category": "fact",
+    "question": "知识库在检索前需要做哪些准备？",
+    "retrieval_question": "What preparation is needed before retrieving from a knowledge base?",
+    "should_answer": true,
+    "reference_answer": "根据资料，检索前需要导入并预处理文档，将大文档切分成较小的文本块，转换为嵌入向量并存入数据库；还需要构建搜索索引。",
+    "reference_evidence": [
+      {"source": "01_rag.md", "start_index": 2887},
+      {"source": "01_rag.md", "start_index": 10109}
+    ]
+  },
+  {
+    "id": "dev_02",
+    "category": "fact",
+    "question": "根据资料，创建一次函数调用包含哪三个主要步骤？",
+    "retrieval_question": "What are the three main steps for creating a function call?",
+    "should_answer": true,
+    "reference_answer": "根据资料，第一步携带函数（工具）列表和用户消息调用 Responses API；第二步读取模型响应，并由应用执行相应函数或 API 调用；第三步将函数执行结果作为输入再次调用 Responses API，让模型利用这些结果生成面向用户的回答。",
+    "reference_evidence": [
+      {"source": "02_function_calling.md", "start_index": 9198}
+    ]
+  },
+  {
+  "id": "dev_03",
+  "category": "fact",
+  "question": "根据资料，AI Agent 要完成任务需要具备哪两类能力？",
+  "retrieval_question": "According to the document, what two capabilities do AI agents need to perform tasks?",
+  "should_answer": true,
+  "reference_answer": "资料指出，AI Agent 需要访问 state 和 tools，即状态信息与工具。",
+  "reference_evidence": [
+    {
+      "source": "03_agents.md",
+      "start_index": 1168
+    }
+  ]
+  },
+  {
+  "id": "dev_04",
+  "category": "fact",
+  "question": "使用函数调用时，真正执行函数的是模型还是应用程序？",
+  "retrieval_question": "When using function calling, does the model or the application actually execute the function?",
+  "should_answer": true,
+  "reference_answer": "根据资料，模型不会真正执行函数；模型返回结构化的函数调用信息，由应用程序根据这些信息执行函数。",
+  "reference_evidence": [
+    {
+      "source": "02_function_calling.md",
+      "start_index": 7293
+    }
+  ]
+  }
+]

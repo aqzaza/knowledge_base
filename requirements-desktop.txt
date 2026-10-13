@@ -1,0 +1,2 @@
+# Additional formula-preview dependency, not the full release dependency list.
+matplotlib==3.10.7

@@ -1,0 +1,44 @@
+{
+  "repository": "https://github.com/microsoft/generative-ai-for-beginners",
+  "commit": "d8ec07e31c4b32bd283d565c1abd9b58bb5cf2e8",
+  "download_date": "2026-10-01",
+  "license": "MIT",
+  "license_file": "LICENSE_MICROSOFT.txt",
+  "documents": [
+    {
+      "file": "01_rag.md",
+      "title": "Retrieval Augmented Generation (RAG) and Vector Databases",
+      "repository_path": "15-rag-and-vector-databases/README.md",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners/blob/d8ec07e31c4b32bd283d565c1abd9b58bb5cf2e8/15-rag-and-vector-databases/README.md",
+      "sha256": "d1ba42405de1e416ddc4520292fb45b955629e48d75c26431a340271a42f1f74",
+      "bytes": 14450,
+      "characters": 14446
+    },
+    {
+      "file": "02_function_calling.md",
+      "title": "Integrating with function calling",
+      "repository_path": "11-integrating-with-function-calling/README.md",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners/blob/d8ec07e31c4b32bd283d565c1abd9b58bb5cf2e8/11-integrating-with-function-calling/README.md",
+      "sha256": "be93cd9a3a2816cdef3055eeb33cd6e1c61b1fc56b76aca2a8e63f50ee03cecb",
+      "bytes": 22186,
+      "characters": 21724
+    },
+    {
+      "file": "03_agents.md",
+      "title": "AI Agents",
+      "repository_path": "17-ai-agents/README.md",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners/blob/d8ec07e31c4b32bd283d565c1abd9b58bb5cf2e8/17-ai-agents/README.md",
+      "sha256": "8cb195829f11c925c146c40ae21fa1f6e2a4c5bf37b0daea51c063bff68991d3",
+      "bytes": 13740,
+      "characters": 13735
+    }
+  ],
+  "notes": [
+    "Downloaded Markdown files are unchanged; only local filenames differ.",
+    "Original copyright and permission notice are retained in LICENSE_MICROSOFT.txt.",
+    "These English tutorials are corpus data, not current implementation instructions.",
+    "Some framework examples may use legacy APIs; do not execute or copy them into this project without separate validation.",
+    "Only Markdown text was downloaded; linked images, videos, notebooks and external pages are not part of this corpus.",
+    "The current reader preserves Markdown syntax but does not parse images or assign page numbers."
+  ]
+}
